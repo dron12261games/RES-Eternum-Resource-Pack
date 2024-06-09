@@ -49,18 +49,18 @@ maps
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
-		overridefloortexture = true;
-		overrideceiltexture = true;
-		overridetoptexture = true;
-		overridemiddletexture = true;
-		overridebottomtexture = true;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
 		overridefloorheight = false;
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 94.48338f;
-		viewpositiony = -326.6768f;
-		viewscale = 0.8449996f;
+		viewpositionx = 246.1959f;
+		viewpositiony = 608.7456f;
+		viewscale = 0.665416f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -71,7 +71,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 32;
+			gridsize = 64;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -103,6 +103,15 @@ maps
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
 			stderriserror = true;
+		}
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				ypanningfloor = 1;
+			}
 		}
 	}
 }
